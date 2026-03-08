@@ -1,0 +1,94 @@
+/*DISCLIMER: Bapak/Ibu Yth text hijau ini adalah sebagai penanda saja agar tidak pusing ketika mau setting lagi, Terimakasi*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+/*Foto Profle*/
+.profile {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #151B54;
+
+}
+
+/*Container*/
+.container {
+    width: 60%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*Judul Utama*/
+h1 {
+    text-align: center;
+    color: #151854 ;
+}
+
+/*Sub Judul*/
+h2 {
+    margin-top: 30px;
+    color: #4863A0 ;
+    border-bottom: 2px solid #ddd;
+}
+
+/*Tabel*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid #151B54;
+}
+
+th {
+    padding: 8px;
+    background-color: #add3e2;
+}
+
+td {
+    padding: 5px;
+}
+
+/*list*/
+li {
+    margin-top: 10px;
+}
+
+/*Link*/
+a {
+    text-decoration: none;
+    color: #4863A0;
+}
+
+a:hover {
+    color: red;
+}
+
+/*form*/
+input, textarea {
+    width: 100%;
+    padding: 8px 0;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid #151B54;
+}
+
+input [tpye="submit"] {
+    background-color: #151B54;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+input[tpye="submit"]:hover {
+    background-color: #4863A0;
+}
+
